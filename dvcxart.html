@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <img src="src/images/navBar.png"  alt="Imagen NavBar" id="imgNav">
+            <a class="navbar-brand h1 fs-1 ps-4" href="#">dvcxart</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active h2 fs-2 titulos" aria-current="page" href="#">Home</a>
+                </li>
+              </ul>
+    
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link active h2 fs-2 titulos" aria-current="page" href="#">Acerca de</a>
+                </li>
+              </ul>
+    
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                  <a class="nav-link active h2 fs-2 titulos" aria-current="page" href="#">Obras</a>
+                </li>
+              </ul>
+            </div>
+      </div>
+    </nav>
+
+    <br>
+
+    <div class="container-fluid" id="cuerpo">
+        <div class="row">
+            <div class="col-12 col-lg-4 imagen1 mt-2">
+                <img src="src/images/Perfil.png" alt="Imagen Perfil" class="imagenPerfil img-fluid">
+            </div>
+            <div class="col-12 m-1 col-lg-7 p-2 mt-5">
+                <div class="p-5"> 
+                    <p class="lead h1 fs-1 text-center titulos">Acerca de mi</p>  
+                    <hr>
+                    <p class="display-6 mt-5"> 
+                        David Cruz, también presentado con la firma:
+                    </p>
+                    <br>
+                    <p class="fs-4"> Dvcx, es un artista independiente originario de la Ciudad de México que se dedica a la creación de arte a través de la mezcla de colores, la creación de personajes y el uso de composiciones únicas. Con su trabajo, busca plasmar experiencias e ideas en medios gráficos de una manera expresiva y original.
+
+                    <br> <br>    Su pasión por el arte comenzó desde una edad temprana, y ha sido una constante en su vida. Con el tiempo, ha desarrollado una técnica única y un estilo propio que se reflejan en cada una de sus obras. Se esfuerza por crear piezas que evocan emociones y sensaciones en el espectador, utilizando colores vibrantes y formas interesantes.</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row mt-5">
+            <div class="col-12">
+                <p class="lead h1 fs-1 text-center titulos">Menciones</p>  
+                <hr>
+                <br>
+                <p class="p-3 h3">He recibido multiples menciones en redes sociales; manteniendome vigente e visible para la comunidad.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col imagen1 m-2">
+                <div class="card" style="width: 30rem;">
+                    <img src="src/images/Hamburguesas.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">He recibido multiples menciones en  redes sociales; manteniendome vigente e visible para la comunidad.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col imagen1 m-2">
+                <div class="card" style="width: 30rem;">
+                    <img src="src/images/Hamburguesas.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">He recibido multiples menciones en  redes sociales; manteniendome vigente e visible para la comunidad.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col imagen1 m-2">
+                <div class="card" style="width: 30rem;">
+                    <img src="src/images/Hamburguesas.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">He recibido multiples menciones en  redes sociales; manteniendome vigente e visible para la comunidad.</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col">
+              <div class="ful-img" id="fulImgBox">
+                <img src="imgs/1.jpg" id="fulImg" alt="">
+                <span onclick="closeImg()">X</span>
+            </div>
+        
+            <p class="h1 titulos mt-5">Colecciones</p>
+        
+            <div class="img-gallery">
+                <img src="src/images/Hamburguesas.jpg" onclick="openFulImg(this.src)" alt="">
+                <img src="src/images/Hamburguesas.jpg" onclick="openFulImg(this.src)" alt="">
+                <img src="src/images/Hamburguesas.jpg" onclick="openFulImg(this.src)" alt="">
+                <img src="src/images/Hamburguesas.jpg" onclick="openFulImg(this.src)" alt="">
+                <img src="src/images/Hamburguesas.jpg" onclick="openFulImg(this.src)" alt="">
+                <img src="src/images/Hamburguesas.jpg" onclick="openFulImg(this.src)" alt="">
+                <img src="src/images/Hamburguesas.jpg" onclick="openFulImg(this.src)" alt="">
+                <img src="src/images/Hamburguesas.jpg" onclick="openFulImg(this.src)" alt="">
+            </div>         
+            </div>
+        </div>
+
+
+    </div>
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
